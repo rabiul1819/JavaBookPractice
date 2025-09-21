@@ -1,8 +1,8 @@
-package lessonOne.pattern;
+package lessonOne.patternsrightangle;
 
 import java.util.Scanner;
 
-public class Pattern3 {
+public class Pattern4 {
     public static void main(String[] args) {
 
         System.out.print("Enter number of rows: ");
@@ -11,7 +11,7 @@ public class Pattern3 {
         int row,col;
         for (row = 1; row <= n; row++){
             for (col = 1; col <= row; col++){
-                System.out.print(col % 2 + " ");
+                System.out.print(row % 2 + " ");
             }
             System.out.print("\n");
         }

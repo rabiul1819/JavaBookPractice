@@ -1,4 +1,4 @@
-package lessonOne.pattern;
+package lessonOne.patternsrightangle;
 
 import java.util.Scanner;
 
