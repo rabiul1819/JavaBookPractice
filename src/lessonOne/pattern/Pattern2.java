@@ -2,7 +2,7 @@ package lessonOne.pattern;
 
 import java.util.Scanner;
 
-public class Pattern1 {
+public class Pattern2 {
     public static void main(String[] args) {
 
         System.out.print("Enter number of rows: ");
@@ -11,7 +11,7 @@ public class Pattern1 {
         int row,col;
         for (row = 1; row <= n; row++){
             for (col = 1; col <= row; col++){
-                System.out.print(col + " ");
+                System.out.print(row + " ");
             }
             System.out.print("\n");
         }
